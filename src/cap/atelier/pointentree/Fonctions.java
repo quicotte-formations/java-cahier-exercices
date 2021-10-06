@@ -5,6 +5,11 @@ import java.util.Scanner;
 
 public class Fonctions {
 	
+	/**
+	 * Renvoie un string concaténant tous les strings passés en param, le tt en MAJ.
+	 * @param mesStrings Les String en entrée
+	 * @return
+	 */
 	public static String majuscules(String ... mesStrings) {
 		
 		String resultat = "";
